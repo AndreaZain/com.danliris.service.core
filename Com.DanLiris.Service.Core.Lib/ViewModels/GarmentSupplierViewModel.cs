@@ -31,5 +31,11 @@ namespace Com.DanLiris.Service.Core.Lib.ViewModels
 		public IncomeTaxViewModel IncomeTaxes { get; set; }
 
 		public bool IsPosted { get; set; }
-	}
+
+		public string description { get; set; }
+
+        public List<string> DocumentsFile { get; set; }
+        public List<string> DocumentsPath { get; set; }
+        public List<string> DocumentsFileName { get; set; }
+    }
 }
